@@ -1,12 +1,7 @@
-/*
- * File: 6-size.c
- * Auth: Taqiyeddine Abderrahim <a.taquieddine@gmail.com>
- */
-
 #include <stdio.h>
 
 /**
- * [main] prints the size of various types based on
+ * main - Prints the size of various types based on
  *        the computer it is compiled and run on..
  *
  * Return: Always 0.

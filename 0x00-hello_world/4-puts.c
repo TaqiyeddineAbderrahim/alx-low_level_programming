@@ -1,15 +1,12 @@
-/*
- * File: 4-puts.c
- * Auth: Taqiyeddine Abderrahim <a.taquieddine@gmail.com>
- */
-
 #include <stdio.h>
-
-/*
- * [main] prints "Programming is like building a multilingual
- *                puzzle, followed by a new line."
+/**
+ * main - entry point.
  *
- * Return: Always 0.
+ * Description: Explaining the task.
+ * This function prints <Programming is like building a multilingual
+ * puzzle>, followed by a new line.
+ *
+ * Return: 0 (Just a random value to stop the program)
  */
 int main(void)
 {
