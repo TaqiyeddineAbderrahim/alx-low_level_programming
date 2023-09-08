@@ -16,7 +16,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 26; i++)
-		if ((low_al[i] != 'e') && (low_al != 'q'))
+		if ((low_al[i] != 'e') && (low_al[i] != 'q'))
 			putchar(low_al[i]);
 	putchar('\n');
 
