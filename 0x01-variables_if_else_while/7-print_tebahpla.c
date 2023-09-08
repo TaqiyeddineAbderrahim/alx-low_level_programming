@@ -13,9 +13,10 @@ int main(void)
 {
 	/* Declare and initialize the string variable lower_alphabet */
 	char lower_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	int i, length_al;
+	length_al = strlen(lower_alphabet);
 
-	for (i = strlen(lower_alphabet); i > 0; i--)
+	for (i = length_al ; i > 0; i--)
 		putchar(lower_alphabet[i]);
 	putchar('\n');
 
