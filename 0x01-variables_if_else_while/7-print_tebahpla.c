@@ -17,7 +17,7 @@ int main(void)
 	int i, length_al;
 	length_al = strlen(lower_alphabet)-1;	/* -1 to skip the /o char */
 
-	for (i = length_al ; i == 0; i--)
+	for (i = length_al ; i = 0; i--)
 		putchar(lower_alphabet[i]);
 	putchar('\n');
 
