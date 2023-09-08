@@ -14,10 +14,10 @@
 int main(void)
 {
 	int n;
+	int l_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int l_digit;
       	l_digit = n % 10;
 
 	if (l_digit > 5)
