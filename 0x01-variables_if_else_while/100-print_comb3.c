@@ -19,14 +19,12 @@ int main(void)
 			{
 				putchar('0' + i);
 				putchar('0' + j);
-			}
-			else if (i == j)
-				continue;
-			else
-			{
 				putchar(',');
 				putchar(' ');
 			}
+			else if (i == j)
+				continue;
+
 	putchar('\n');
 
 	return (0);
