@@ -12,8 +12,10 @@ int main(void)
 {
 	/* Declare and initialize the string variable */
 	char lower_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	for (i = 0; i < 26; i++)
+	for (int i = 0; i < 26; i++)
+	{
 		putchar(lower_alphabet[i]);
+	}
 
 	return (0);
 }
