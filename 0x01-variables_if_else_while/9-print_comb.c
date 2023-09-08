@@ -18,7 +18,8 @@ int main(void)
 		putchar(48 + i);	/* 0-9 range in the ASCII Table */
 		if (i == 9)
 			break;
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 
