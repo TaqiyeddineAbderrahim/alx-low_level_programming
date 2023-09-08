@@ -15,6 +15,7 @@ int main(void)
 	/* Declare and initialize the string variable lower_alphabet */
 	char lower_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i, length_al;
+
 	length_al = strlen(lower_alphabet)-1;	/* -1 to skip the /o char */
 
 	for (i = length_al ; i > -1; i--)
