@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 		putchar(lower_alphabet[i]);
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
