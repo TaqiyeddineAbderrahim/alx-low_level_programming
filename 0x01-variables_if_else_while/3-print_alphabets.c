@@ -10,12 +10,12 @@
  */
 int main(void)
 {
-	/* Declare and initialize the string variable lowup_alphabet */
-	char lowup_alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	/* Declare and initialize the string variable lowup_al */
+	char lowup_al[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
-		putchar(lowup_alphabet[i]);
+		putchar(lowup_al[i]);
 	putchar('\n');
 
 	return (0);
