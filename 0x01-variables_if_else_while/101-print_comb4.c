@@ -19,17 +19,16 @@ int main(void)
 			{
 				if ((i == j) && (j  == k))
 					continue;
-				if (i < j)
-					if (j < k)
-					{
-						putchar('0' + i);
-						putchar('0' + j);
-						putchar('0' + k);
-						if ((i * j * k) == 504)
-							break;
-						putchar(',');
-						putchar(' ');
-					}
+				if ((i < j) && (j < k))
+				{
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar('0' + k);
+					if ((i * j * k) == 504)
+						break;
+					putchar(',');
+					putchar(' ');
+				}
 			}
 
 	putchar('\n');
