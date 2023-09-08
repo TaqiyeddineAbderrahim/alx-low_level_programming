@@ -17,14 +17,15 @@ int main(void)
 		for (j = 0; j < 10; j++)
 			if (i == j)
 				continue;
-			else if ((i == 8) && (j == 9))
-				break;
 			else if (i < j)
 			{
 				putchar('0' + i);
 				putchar('0' + j);
-				putchar(',');
-				putchar(' ');
+				if ((i != 8) && (j != 9))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 
 	putchar('\n');
