@@ -19,7 +19,7 @@ int main(void)
 		putchar(48 + i);	/* 0-9 range in the ASCII Table */
 
 	for (hexEquiv = 'a'; hexEquiv <= 'f'; hexEquiv++)
-		putchar(hexEquiv)
+		putchar(hexEquiv);
 
 	putchar('\n');
 
