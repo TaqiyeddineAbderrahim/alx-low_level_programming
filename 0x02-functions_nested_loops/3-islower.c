@@ -5,7 +5,7 @@
  * @c: Character.
  * Return: 0 or 1.
  */
-int _islower(char c)
+int _islower(int c)
 {
 	if ((c >= 'a') && (c <= 'z'))
 		return 1;
