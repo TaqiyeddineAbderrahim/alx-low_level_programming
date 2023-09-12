@@ -2,7 +2,7 @@
 
 /**
  *
- * Write a program that prints _putchar, followed by a new line.
+ * main - Prints _putchar, followed by a new line.
  *
  * Return: 0
  *
