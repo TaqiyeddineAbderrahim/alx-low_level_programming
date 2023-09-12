@@ -2,7 +2,7 @@
 
 /**
  * print_sign -  Prints the sign of a number.
- * @c: Number to pass to print_sign function.
+ * @n: Number to pass to print_sign function.
  * Return: -1, 0 or 1.
  */
 int print_sign(int n)
